@@ -26,15 +26,17 @@ for m in slopes:
     errors.append(error)
 
     #   plt.figure()
-    plt.scatter(weight_train, height_train)
+    plt.scatter(weight_train, height_train, label='training data')
     plt.xlabel("Weight")
     plt.ylabel("Height")
     plt.scatter(weight_train, height_model)
-    plt.plot(weight_train, height_model)
+    plt.plot(weight_train, height_model, label='model')
+    plt.title('Error = %.2f at slope = %.2f' % (error, m))
+
     plt.axis([0, 70, -30, 30])
 
     plt.plot([weight_train, weight_train],[height_train, height_model],'--', linewidth=.5)
-
+    plt.legend()
     plt.show()
 
 
@@ -51,5 +53,8 @@ print("Slope for minimum error: ",slope)
 plt.scatter(slope,min(errors))
 
 plt.plot(slopes,errors)
-plt.title("slopes")
+plt.title("slopes vs errors")
+plt.xlabel('slopes')
+plt.ylabel('errors')
+
 plt.show()
