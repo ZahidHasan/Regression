@@ -1,2 +1,3 @@
 # Regression
-Simple Regression in Python
+Simple Regression in Python. For detail implementation see regression.py file.
+
