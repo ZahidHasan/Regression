@@ -1,11 +1,7 @@
 # Regression
 Simple Regression in Python. For detail implementation see regression.py file.
 
-In regression, we normally have one dependent variable and one or more independent variables. Here we try to “regress” the value of the dependent variable “Y” with the help of the independent variables. In other words, we are trying to understand, how the value of ‘Y’ changes w.r.t change in ‘X’.
-
-For the regression analysis is be a successful method, we understand the following terms:
-1. Dependent Variable: This is the variable that we are trying to understand or forecast.
-1. Independent Variable: These are factors that influence the analysis or target variable and provide us with information regarding the relationship of the variables with the target variable.
+Linear regression is a statistical method that tries to show a relationship between variables. It looks at different data points and plots a trend line. Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data. One variable is considered to be an explanatory variable, and the other is considered to be a dependent variable. For example, a modeler might want to relate the weights of individuals to their heights using a linear regression model. Simply stated, the goal of linear regression is to fit a line to a set of points. When the target variable that we’re trying to predict is continuous, we call the learning problem a regression problem. Let’s suppose we want to model the above set of points with a line. To do this we’ll use the standard y = mx + b line equation where m is the line’s slope and b is the line’s y-intercept. To find the best line for our data, we need to find the best set of slope m and y-intercept b values.
 
 ![plot](./Images/Figure_1.png)
 ![plot](./Images/Figure_4.png)
