@@ -12,6 +12,7 @@ Linear regression is a statistical method that tries to show a relationship betw
 ![plot](./Images/slope.png)
 
 Code:
+```python
 
 import pandas as pd
 import numpy as np
@@ -73,3 +74,4 @@ plt.xlabel('slopes')
 plt.ylabel('errors')
 
 plt.show()
+```
